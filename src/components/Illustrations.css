@@ -1,0 +1,7 @@
+.Illustrations {
+    display: grid;
+}
+
+.Illustrations--Image {
+    max-height: 10rem;
+}

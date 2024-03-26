@@ -1,7 +1,11 @@
+import './Header.css';
+
 export const Header = () => {
     return (
-        <a href="/">
-            <img alt="Janae Dueck Logo" src=""></img>
-        </a>
+        <div className="Header">
+            <a href="/">
+                <img className="Header--Logo" alt="Janae Dueck Logo" src={`${process.env.PUBLIC_URL}/logo.png`}></img>
+            </a>
+        </div>
     )
 }

@@ -5,6 +5,7 @@ import { Illustrations } from './components/Illustrations';
 import { About } from './components/About';
 import { Writing } from './components/Writing';
 import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
 
 enum Tab {
   Illustrations,
@@ -19,7 +20,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <div className="NavBar">
+      {/* <div className="NavBar">
         <div className="NavBar--Tabs">
           {tabNames.map(tab => (
             <a href="#" onClick={(e) => { e.preventDefault(); setSelectedTab(Tab[tab as keyof typeof Tab]) }}>
@@ -27,11 +28,12 @@ export const App = () => {
             </a>
           ))}
         </div>
-      </div>
-      {selectedTab === Tab.Illustrations && <Illustrations />}
-      {selectedTab === Tab.About && <About />}
-      {selectedTab === Tab.Writing && <Writing />}
-      {selectedTab === Tab.Contact && <Contact />}
+      </div> */}
+      <Illustrations />
+      <About />
+      <Writing />
+      <Contact />
+      <Footer />
     </>
   );
 }

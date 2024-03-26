@@ -1,0 +1,14 @@
+.About {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.About--Bio {
+    padding: 2rem;
+}
+
+.About--Image {
+    padding: 2rem 0 2rem 2rem;
+    object-fit: cover;
+    width: calc(100% - 2rem);
+}
