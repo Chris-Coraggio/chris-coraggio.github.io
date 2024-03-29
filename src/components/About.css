@@ -4,11 +4,16 @@
 }
 
 .About--Bio {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.About--ImageContainer {
     padding: 2rem;
+    object-fit: cover;
 }
 
 .About--Image {
-    padding: 2rem 0 2rem 2rem;
-    object-fit: cover;
-    width: calc(100% - 2rem);
+    width: 100%;
+    height: auto;
+    display: block;
 }
