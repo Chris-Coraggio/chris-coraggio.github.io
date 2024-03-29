@@ -1,9 +1,58 @@
-.Contract {
-    display: flex;
+.Contact {
     align-items: center;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
 .Contact--FormRow {
+    display: flex;
+    justify-content: center;
     padding: 1rem;
+    width: 50%;
+}
+
+.Contact--Input {
+    background-color: #fafafa;
+    border: 1px solid #a9a9a9;
+    padding: 1rem;
+    width: 100%;
+}
+
+.Contact--Input:focus {
+    outline: none;
+    border-color: pink;
+}
+
+.Contact--Button {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.Contact--Button:hover {
+    background-color: pink;
+}
+
+.Contact--Modal {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    padding: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Contact--Modal:focus-visible {
+    outline: pink;
+}
+
+.Contact--ModalButton {
+    margin-top: 1rem;
 }

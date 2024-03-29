@@ -1,5 +1,8 @@
 import { JsxElement } from 'typescript';
 import './Illustrations.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
 
 const illustrations = [
     `${process.env.PUBLIC_URL}/6.jpg`,
@@ -35,7 +38,6 @@ const illustrations = [
     `${process.env.PUBLIC_URL}/Instagram_.jpg`,
     `${process.env.PUBLIC_URL}/Life_Is_What_You_Make_Of_It_.jpg`,
     `${process.env.PUBLIC_URL}/Life+is+What+You+Make+of+IT.jpg`,
-    `${process.env.PUBLIC_URL}/logo.png`,
     `${process.env.PUBLIC_URL}/Make+Art+Monday+(1a).jpg`,
     `${process.env.PUBLIC_URL}/Owl_And_Elephant+copy.jpg`,
     `${process.env.PUBLIC_URL}/Page+15-16.jpg`,
@@ -54,23 +56,46 @@ const illustrations = [
     `${process.env.PUBLIC_URL}/Wedding_Invite.jpg`
 ]
 
-export const Illustrations = () => {
-    const eightRandomIllustrations = illustrations.slice().sort(() => Math.random() - 0.5).slice(0, 8)
-    let numInRow = 3;
-    let rows: Array<JSX.Element> = [];
-    for (let i = 0; i < 8;) {
-        const numbers = Array.from({ length: numInRow }, (_, index) => i + index);
-        rows.push(
-            <div style={{ gridTemplateColumns: `repeat(${numInRow}, 1fr)` }}>
-                {numbers.map(j => <img src={eightRandomIllustrations[j]} className="Illustrations--Image"></img>)}
-            </div>
-        )
-        i += numInRow
-        numInRow = numInRow === 2 ? 3 : 2;
-    }
+function SampleNextArrow(props: any) {
+    const { className, style, onClick } = props;
     return (
-        <div className="Illustrations">
-            {rows}
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius: '1rem', lineHeight: 1.19 }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props: any) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius: '1rem', lineHeight: 1.19 }}
+            onClick={onClick}
+        />
+    );
+}
+
+export const Illustrations = () => {
+    const settings = {
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
+    };
+    return (
+        <div className="Illustrations slider-container">
+            <Slider {...settings}>
+                {illustrations.map(i => (
+                    <div className="Illustrations--ImageContainer">
+                        <img src={i} alt={i} className="Illustrations--Image" />
+                    </div>
+                ))}
+            </Slider>
         </div>
-    )
+    );
 }

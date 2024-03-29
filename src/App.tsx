@@ -6,6 +6,7 @@ import { About } from './components/About';
 import { Writing } from './components/Writing';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import Modal from 'react-modal';
 
 enum Tab {
   Illustrations,
@@ -13,6 +14,8 @@ enum Tab {
   Writing,
   Contact
 }
+
+Modal.setAppElement('#root');
 
 export const App = () => {
   const [selectedTab, setSelectedTab] = useState<Tab>(Tab.Illustrations);
