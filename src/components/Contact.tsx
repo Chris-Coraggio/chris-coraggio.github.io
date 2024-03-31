@@ -18,6 +18,9 @@ export const Contact = () => {
                 <form onSubmit={handleSubmit}>
                     <div className="Contact">
                         <div className="Contact--FormRow">
+                            Write me a message if you have an illustration inquiry, a question about art therapy, or a desire to just say hello!
+                        </div>
+                        <div className="Contact--FormRow">
                             <input
                                 id="name"
                                 type="name"
