@@ -21,7 +21,7 @@ export const App = () => {
   const [selectedTab, setSelectedTab] = useState<Tab>(Tab.Illustrations);
   const tabNames = Object.keys(Tab).filter(key => isNaN(parseInt(key)))
   return (
-    <>
+    <div className="App">
       <Header />
       {/* <div className="NavBar">
         <div className="NavBar--Tabs">
@@ -37,7 +37,7 @@ export const App = () => {
       <Writing />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
