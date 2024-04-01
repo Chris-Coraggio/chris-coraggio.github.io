@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <div className="About">
             <div className="About--ImageContainer">
-                <img className="About--Image" src={`${process.env.PUBLIC_URL}/profile.jpeg`}></img>
+                <img alt="Profile" className="About--Image" src={`${process.env.PUBLIC_URL}/profile.jpeg`}></img>
             </div>
             <div className="About--Bio">
                 <p>

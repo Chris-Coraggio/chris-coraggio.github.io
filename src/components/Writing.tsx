@@ -5,7 +5,7 @@ export const Writing = () => {
         <div className="Writing">
             <div className="Writing--Feature">
                 <div className="Writing--FeatureImage">
-                    <img src={`${process.env.PUBLIC_URL}/ColoringGodsLove.jpg`} style={{ maxWidth: '100%', height: 'auto' }} />
+                    <img alt="Coloring God's Love" src={`${process.env.PUBLIC_URL}/ColoringGodsLove.jpg`} style={{ maxWidth: '100%', height: 'auto' }} />
                 </div>
                 <div className="Writing--FeatureText">
                     <h2>Coloring God&apos;s Love For Me: 100 Devotions To Inspire Young Hearts</h2>

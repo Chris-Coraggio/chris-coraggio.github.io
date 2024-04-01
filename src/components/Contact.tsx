@@ -11,7 +11,7 @@ export const Contact = () => {
         if (state.succeeded) {
             setFormSubmitted(true);
         }
-    })
+    }, [state.succeeded])
     return (
         <>
             {!formSubmitted &&
