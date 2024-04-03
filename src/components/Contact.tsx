@@ -1,5 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
-import './Contact.css';
+import './Contact.scss';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
 

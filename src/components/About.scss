@@ -1,6 +1,6 @@
 .About {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: row;
 }
 
 .About--Bio {
@@ -9,6 +9,9 @@
 }
 
 .About--ImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 2rem;
     object-fit: cover;
 }

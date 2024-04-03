@@ -1,9 +1,13 @@
 .Writing--Feature {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    display: flex;
+    flex-direction: row;
 }
 
 .Writing--FeatureImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
     padding: 1rem;
     max-width: 100%;
 }

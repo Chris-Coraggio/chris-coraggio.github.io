@@ -1,0 +1,13 @@
+@import 'src/constants.scss';
+
+@media screen and (min-width: $TABLET_BREAKPOINT) {
+  .App {
+    padding: 0 8rem;
+  }
+}
+
+@media screen and (max-width: $TABLET_BREAKPOINT) {
+  .App {
+    padding: 0 2rem;
+  }
+}

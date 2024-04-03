@@ -1,3 +1,5 @@
+@import 'src/constants.scss';
+
 .Contact {
     align-items: center;
     display: flex;
@@ -8,8 +10,15 @@
 .Contact--FormRow {
     display: flex;
     justify-content: center;
-    padding: 1rem;
-    width: 50%;
+    padding: 1rem 8rem;
+    width: 75vw;
+}
+
+
+@media screen and (min-width: $MOBILE_BREAKPOINT) {
+    .Contact--FormRow {
+        width: 50vw;
+    }
 }
 
 .Contact--Input {
@@ -42,6 +51,7 @@
 .Contact--Modal {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 8rem;
     position: fixed;
     padding: 2rem;
     top: 50%;
