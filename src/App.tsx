@@ -1,11 +1,11 @@
 import './App.scss';
-import { Header } from './components/Header';
+import Modal from 'react-modal';
 import { Illustrations } from './components/Illustrations';
 import { About } from './components/About';
 import { Writing } from './components/Writing';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import Modal from 'react-modal';
+import { Header } from './components/Header';
 
 Modal.setAppElement('#root');
 
