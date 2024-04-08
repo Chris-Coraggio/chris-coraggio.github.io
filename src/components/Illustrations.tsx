@@ -171,6 +171,11 @@ const illustrations = (unit: number) => [
         width: unit * 0.887218,
     },
     {
+        src: `${process.env.PUBLIC_URL}/illustrations/Wedding_Invite.jpg`,
+        height: unit,
+        width: unit * 1.48754,
+    },
+    {
         src: `${process.env.PUBLIC_URL}/illustrations/Page+29-30a.jpg`,
         height: unit,
         width: unit * 1.60565,
@@ -249,9 +254,4 @@ const illustrations = (unit: number) => [
         width: unit * 1.57398,
     },
     // END ZOO
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Wedding_Invite.jpg`,
-        height: unit,
-        width: unit * 0.714286,
-    },
 ]

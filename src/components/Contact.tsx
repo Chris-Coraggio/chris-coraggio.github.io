@@ -18,7 +18,16 @@ export const Contact = () => {
                 <form onSubmit={handleSubmit}>
                     <div className="Contact">
                         <div className="Contact--FormRow">
-                            Write me a message if you have an illustration inquiry, a question about art therapy, or a desire to just say hello!
+                            <div>
+                                <p>Here are some of the ways I can help:</p>
+                                <ul style={{ paddingInlineStart: '10px' }}>
+                                    <li style={{ paddingBottom: '10px' }}>Consultation for new writers about how to publish</li>
+                                    <li style={{ paddingBottom: '10px' }}>Children&apos;s book illustrations</li>
+                                    <li style={{ paddingBottom: '10px' }}>Character design</li>
+                                    <li style={{ paddingBottom: '10px' }}>Workshops on art and wellness</li>
+                                </ul>
+                                <p>Reach out below if you&apos;re interested in this or anything else!</p>
+                            </div>
                         </div>
                         <div className="Contact--FormRow">
                             <input
