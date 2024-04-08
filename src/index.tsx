@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import { DesktopContextProvider } from './context/DesktopContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <DesktopContextProvider>
+      <App />
+    </DesktopContextProvider>
   </React.StrictMode>
 );
 

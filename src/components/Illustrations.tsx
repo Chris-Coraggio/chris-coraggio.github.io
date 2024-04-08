@@ -1,12 +1,11 @@
-import { useMediaQuery } from 'react-responsive';
 import './Illustrations.scss';
 import { Gallery } from "react-grid-gallery";
-import { TABLET_BREAKPOINT } from '../constants';
+import { useContext } from 'react';
+import DesktopContext from '../context/DesktopContext';
+
 
 export const Illustrations = () => {
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${TABLET_BREAKPOINT})`
-    })
+    const isDesktop = useContext(DesktopContext);
     const unit = isDesktop ? 320 : 160;
     return (
         <div className="Illustrations">
@@ -147,11 +146,6 @@ const illustrations = (unit: number) => [
         width: unit * 1.20077,
     },
     {
-        src: `${process.env.PUBLIC_URL}/illustrations/Digital+art+concept+of+character+.jpg`,
-        height: unit,
-        width: unit * 1.47059,
-    },
-    {
         src: `${process.env.PUBLIC_URL}/illustrations/image-asset-3.jpg`,
         height: unit,
         width: unit * 1.59949,
@@ -167,19 +161,9 @@ const illustrations = (unit: number) => [
         width: unit,
     },
     {
-        src: `${process.env.PUBLIC_URL}/illustrations/Life_Is_What_You_Make_Of_It_.jpg`,
-        height: unit,
-        width: unit * 1.20019,
-    },
-    {
         src: `${process.env.PUBLIC_URL}/illustrations/Life+is+What+You+Make+of+IT.jpg`,
         height: unit,
         width: unit * 1.20019,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Make+Art+Monday+(1a).jpg`,
-        height: unit,
-        width: unit * 1.26212,
     },
     {
         src: `${process.env.PUBLIC_URL}/illustrations/Owl_And_Elephant+copy.jpg`,
@@ -265,11 +249,6 @@ const illustrations = (unit: number) => [
         width: unit * 1.57398,
     },
     // END ZOO
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/sample3.jpg`,
-        height: unit,
-        width: unit * 1.09096,
-    },
     {
         src: `${process.env.PUBLIC_URL}/illustrations/Wedding_Invite.jpg`,
         height: unit,

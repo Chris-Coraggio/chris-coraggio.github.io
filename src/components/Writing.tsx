@@ -1,11 +1,9 @@
-import { useMediaQuery } from 'react-responsive';
 import './Writing.scss';
-import { TABLET_BREAKPOINT } from '../constants';
+import { useContext } from 'react';
+import DesktopContext from '../context/DesktopContext';
 
 export const Writing = () => {
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${TABLET_BREAKPOINT})`
-    })
+    const isDesktop = useContext(DesktopContext);
     return (
         <div className="Writing">
             <div className="Writing--Feature">

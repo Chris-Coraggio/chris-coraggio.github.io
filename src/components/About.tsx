@@ -1,11 +1,9 @@
-import { useMediaQuery } from 'react-responsive';
 import './About.scss';
-import { TABLET_BREAKPOINT } from '../constants';
+import { useContext } from 'react';
+import DesktopContext from '../context/DesktopContext';
 
 export const About = () => {
-    const isDesktop = useMediaQuery({
-        query: `(min-width: ${TABLET_BREAKPOINT})`
-    })
+    const isDesktop = useContext(DesktopContext);
     return (
         <div className="About">
             {isDesktop && (

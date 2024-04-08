@@ -1,5 +1,14 @@
 @import 'src/constants.scss';
 
+@font-face {
+  font-family: 'Comic Neue';
+  src: url('../fonts/ComicNeue-Angular/ComicNeueAngular-Regular.ttf') format('truetype');
+}
+
+.App {
+  font-family: 'Comic Neue', sans-serif;
+}
+
 @media screen and (min-width: $TABLET_BREAKPOINT) {
   .App {
     padding: 0 8rem;
