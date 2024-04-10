@@ -30,7 +30,7 @@
 
 .Contact--Input:focus {
     outline: none;
-    border-color: pink;
+    border-color: $background-color;
 }
 
 .Contact--Button {
@@ -45,7 +45,7 @@
 }
 
 .Contact--Button:hover {
-    background-color: pink;
+    background-color: $button-hover-color;
 }
 
 .Contact--Modal {
@@ -60,7 +60,7 @@
 }
 
 .Contact--Modal:focus-visible {
-    outline: pink;
+    outline: $background-color;
 }
 
 .Contact--ModalButton {

@@ -1,3 +1,5 @@
+@import 'src/constants.scss';
+
 .Writing--Feature {
     display: flex;
     flex-direction: row;
@@ -28,7 +30,7 @@
 }
 
 .Writing--Button:hover {
-    background-color: pink;
+    background-color: $button-hover-color;
 }
 
 .Writing--Video {
