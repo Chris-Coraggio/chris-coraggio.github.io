@@ -15,243 +15,215 @@ export const Illustrations = () => {
 }
 
 
-
+// find -E . -regex ".*\.(jpg|gif|png|jpeg)" -type f -exec identify -format "\{\nsrc: \`\${process.env.PUBLIC_URL}/illustrations/%f\`,\nheight: unit,\nwidth: unit* %[fx:w/h],\n\}," {} \;
 const illustrations = (unit: number) => [
-    // LIONS
     {
-        src: `${process.env.PUBLIC_URL}/illustrations/6.jpg`,
+        src: `${process.env.PUBLIC_URL}/illustrations/A_Grocery_Store_And_The_Talking_Carrot_.jpeg`,
+        height: unit,
+        width: unit * 1.5548,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-1.jpg`,
+        height: unit,
+        width: unit * 1.57398,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-2.jpg`,
+        height: unit,
+        width: unit * 1.58562,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-8.jpg`,
+        height: unit,
+        width: unit * 1,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-3.jpg`,
+        height: unit,
+        width: unit * 1.58562,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Scenes-1.jpeg`,
+        height: unit,
+        width: unit * 1.77778,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Lions-4.jpg`,
         height: unit,
         width: unit * 2.4108,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/page23-24.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-7.jpg`,
         height: unit,
-        width: unit * 1.23701,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-6.jpg`,
+        width: unit * 1.57398,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-6.jpg`,
         height: unit,
-        width: unit * 2.4108,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-5.jpg`,
+        width: unit * 1.58562,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Lions-1.jpg`,
         height: unit,
         width: unit * 1.25063,
-    },
-    // END LIONS
-    // merry go round?
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/65.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Lions-3.jpg`,
         height: unit,
-        width: unit * 0.800331,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/66.jpg`,
+        width: unit * 1.23701,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-4.jpg`,
         height: unit,
-        width: unit * 0.800427,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/67.jpg`,
+        width: unit * 1.58562,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Zoo-5.jpg`,
+        height: unit,
+        width: unit * 1.57398,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Lions-2.jpg`,
+        height: unit,
+        width: unit * 2.4108,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-5.jpg`,
+        height: unit,
+        width: unit * 1.60565,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-4.jpg`,
+        height: unit,
+        width: unit * 1.60565,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-6.jpg`,
+        height: unit,
+        width: unit * 1.60565,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-7.jpg`,
+        height: unit,
+        width: unit * 1.60565,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-3.jpg`,
+        height: unit,
+        width: unit * 1.77809,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-8.jpg`,
         height: unit,
         width: unit * 0.800329,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Bumpas+_282_29.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-2.jpg`,
         height: unit,
-        width: unit,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Carousel.jpg`,
+        width: unit * 1.77809,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Land_Of_Imagination_.jpeg`,
         height: unit,
-        width: unit,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Chapter+1.jpg`,
+        width: unit * 1.611,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-1.jpg`,
         height: unit,
-        width: unit * 0.666667,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Chapter+5.jpg`,
-        height: unit,
-        width: unit * 0.800114,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Chapter+12+Scene+1.jpg`,
-        height: unit,
-        width: unit * 0.800111,
-    },
-    // end merry go round?
-    // DIRT
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/page34final.jpg`,
+        width: unit * 1.77809,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/HappyField-7.jpg`,
         height: unit,
         width: unit * 2,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-7.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-6.jpg`,
         height: unit,
-        width: unit * 2,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Cover+SPREAD.jpg`,
+        width: unit * 0.800331,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-7.jpg`,
         height: unit,
-        width: unit * 2,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/BethanyClemons3.jpg`,
-        height: unit,
-        width: unit * 2,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/finalpages23-24.jpg`,
-        height: unit,
-        width: unit * 2,
-    },
-    // END DIRT
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/charactersballet.jpg`,
-        height: unit,
-        width: unit * 0.792173,
-    },
-    // Fecal Fighters
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Chill+Superhero.jpg`,
-        height: unit,
-        width: unit * 0.772798,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Clean.jpg`,
-        height: unit,
-        width: unit * 0.772798,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Colonel+Colon+Superhero.jpg`,
-        height: unit,
-        width: unit * 0.772798,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Cook+Superhero.jpg`,
-        height: unit,
-        width: unit * 0.772798,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Separate.jpg`,
-        height: unit,
-        width: unit * 0.772798,
-    },
-    // End Fecal Fighters
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Digital+art+children_s+book+cover+.jpg`,
-        height: unit,
-        width: unit * 1.20077,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-3.jpg`,
-        height: unit,
-        width: unit * 1.59949,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-4.jpg`,
-        height: unit,
-        width: unit * 1.59949,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Instagram_.jpg`,
-        height: unit,
-        width: unit,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Life+is+What+You+Make+of+IT.jpg`,
-        height: unit,
-        width: unit * 1.20019,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Owl_And_Elephant+copy.jpg`,
-        height: unit,
-        width: unit * 0.887218,
-    },
-    {
+        width: unit * 0.800427,
+    }, {
         src: `${process.env.PUBLIC_URL}/illustrations/Wedding_Invite.jpg`,
         height: unit,
         width: unit * 1.48754,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Page+29-30a.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Fifi-3.jpg`,
         height: unit,
-        width: unit * 1.60565,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+17-18.jpg`,
+        width: unit * 1.59949,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Fifi-1.jpg`,
         height: unit,
-        width: unit * 1.60565,
-    },
-    // elephant
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-2.jpg`,
+        width: unit * 1.20077,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/HappyField-4.jpg`,
         height: unit,
-        width: unit * 1.77809,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages13-14+Final.jpg`,
+        width: unit * 2,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-5.jpg`,
+        height: unit,
+        width: unit * 1,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-4.jpg`,
+        height: unit,
+        width: unit * 0.800111,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Life+is+What+You+Make+of+IT.jpg`,
+        height: unit,
+        width: unit * 1.20019,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Fifi-4.jpg`,
+        height: unit,
+        width: unit * 1.59949,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/HappyField-1.jpg`,
+        height: unit,
+        width: unit * 2,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-1.jpg`,
+        height: unit,
+        width: unit * 1,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Digital art tree and hammock.jpeg`,
+        height: unit,
+        width: unit * 1.09096,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/HappyField-2.jpg`,
+        height: unit,
+        width: unit * 2,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-3.jpg`,
+        height: unit,
+        width: unit * 0.800114,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Carousel-2.jpg`,
+        height: unit,
+        width: unit * 0.666667,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/HappyField-3.jpg`,
+        height: unit,
+        width: unit * 2,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Elephant-8.jpg`,
         height: unit,
         width: unit * 0.749518,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-3.jpg`,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-3.jpg`,
         height: unit,
-        width: unit * 1.77809,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+19-20-2.jpg`,
+        width: unit * 0.772798,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-2.jpg`,
         height: unit,
-        width: unit * 1.60565,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+23-24-2.jpg`,
+        width: unit * 0.772798,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-1.jpg`,
         height: unit,
-        width: unit * 1.60565,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image.jpg`,
+        width: unit * 0.792173,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-5.jpg`,
         height: unit,
-        width: unit * 1.77809,
-    },
-    // END elephant
-    // ZOO
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset-2.jpg`,
+        width: unit * 0.772798,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Lions-7.jpeg`,
         height: unit,
-        width: unit * 1.57398,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+7-8.jpg`,
+        width: unit * 1.34125,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-4.jpg`,
         height: unit,
-        width: unit * 1.57398,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Page+15-16.jpg`,
+        width: unit * 0.772798,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Course-1.jpeg`,
         height: unit,
-        width: unit * 1.58562,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/17.jpg`,
+        width: unit * 0.625089,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-6.jpg`,
         height: unit,
-        width: unit * 1.58562,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+23-24.jpg`,
+        width: unit * 0.772798,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/IMG_0535.jpeg`,
         height: unit,
-        width: unit * 1.58562,
-    },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/Pages+25-26.jpg`,
+        width: unit * 1.20111,
+    }, {
+        src: `${process.env.PUBLIC_URL}/illustrations/Characters-7.jpg`,
         height: unit,
-        width: unit * 1.58562,
+        width: unit * 0.887218,
     },
-    {
-        src: `${process.env.PUBLIC_URL}/illustrations/image-asset.jpg`,
-        height: unit,
-        width: unit * 1.57398,
-    },
-    // END ZOO
 ]
