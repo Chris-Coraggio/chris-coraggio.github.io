@@ -1,0 +1,27 @@
+{
+    "name": "Janae Dueck",
+    "short_name": "Janae",
+    "description": "Janae Dueck - Art and Illustration",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "theme_color": "#FFEBEE",
+    "background_color": "#FFEBEE",
+    "orientation": "portrait",
+    "scope": "/",
+    "permissions": [],
+    "related_applications": [],
+    "categories": ["art", "design"],
+    "version": "1.0"
+  }
