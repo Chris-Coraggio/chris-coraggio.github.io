@@ -24,7 +24,7 @@ export const About = () => {
                     I hold a Masters of Arts degree in Marriage and Family Therapy (MFT) and Art Therapy (AT) from Dominican University of California. I believe that art-making and the creative process can be powerful tools in helping people process emotions and difficult life circumstances while getting in touch with their values and new ways of thinking for promoting a healthy and purpose-driven life. My master&apos;s thesis is <a href="https://scholar.dominican.edu/art-therapy-theses-dissertations/1/"><i>The Therapeutic Benefits of Children&apos;s Literature: Responding Through Making Art and Writing Stories</i></a>. My undergrad is in Child and Adolescent Development, which might explain why I love working particularly with kids and teens in a therapeutic context.
                 </p>
                 <p>
-                    I&apos;m currently working as an art therapist at a children&apos;s hospital for kids undergoing cancer treatment. I volunteer with the Kids & Art Foundation, a nonprofit in the Bay Area bringing the arts to children fighting cancer and chronic illness. In my free time, I find the best coffee shops in San Francisco, stay active in my church community, and play tennis with my fiancé.
+                    I&apos;m currently working as an art therapist at a children&apos;s hospital for kids undergoing cancer treatment. I volunteer with the Kids & Art Foundation, a nonprofit in the Bay Area bringing the arts to children fighting cancer and chronic illness. In my free time, I find the best coffee shops in San Francisco, stay active in my church community, and play tennis with my husband.
                 </p>
             </div>
         </div>
