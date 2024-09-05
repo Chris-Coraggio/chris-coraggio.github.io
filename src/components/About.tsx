@@ -13,7 +13,7 @@ export const About = () => {
             )}
             <div className="About--Bio">
                 <p>
-                    I&apos;m a children&apos;s book illustrator, author, and Registered Art Therapist (credential #22-487) with 10+ collaborative projects, self-published and traditionally published. Most recently, I released a kid&apos;s coloring book devotional with Tommy Nelson Publishing called <a href="https://www.amazon.com/Coloring-Gods-Love-Me-Devotions/dp/1400236347/ref=sr_1_1"><i>Coloring God&apos;s Love for Me: 100 Devotions to Inspire Young Hearts</i></a>.
+                    I&apos;m a children&apos;s book illustrator, author, and Registered Art Therapist (credential #22-487) with 10+ collaborative projects, self-published and traditionally published. Most recently, I released a kid&apos;s coloring book devotional with Tommy Nelson Publishing called <a href="https://linktr.ee/janaecoraggio"><i>Coloring God&apos;s Love for Me: 100 Devotions to Inspire Young Hearts</i></a>.
                 </p>
                 {!isDesktop && (
                     <div className="About--ImageContainer">
