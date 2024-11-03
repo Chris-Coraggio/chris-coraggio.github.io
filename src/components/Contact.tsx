@@ -23,8 +23,7 @@ export const Contact = () => {
                                 <ul style={{ paddingInlineStart: '10px' }}>
                                     <li style={{ paddingBottom: '10px' }}>Consultation for new writers about how to publish</li>
                                     <li style={{ paddingBottom: '10px' }}>Children&apos;s book illustrations</li>
-                                    <li style={{ paddingBottom: '10px' }}>Character design</li>
-                                    <li style={{ paddingBottom: '10px' }}>Workshops on art and wellness</li>
+                                    <li style={{ paddingBottom: '10px' }}>Speaking and workshops</li>
                                 </ul>
                                 <p>Reach out below if you&apos;re interested in this or anything else!</p>
                             </div>

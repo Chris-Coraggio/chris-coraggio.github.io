@@ -10,6 +10,11 @@
   src: url('../fonts/ComicNeue-Angular/ComicNeueAngular-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('../fonts//Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
 .App {
   font-family: 'Comic Neue', sans-serif;
   background-color: $background-color;

@@ -10,7 +10,7 @@ export const Header = () => {
                 <a href="/">
                     <img className="Header--Logo" alt="Janae Coraggio Logo" src={`${process.env.PUBLIC_URL}/logo.png`}></img>
                 </a>
-                <h1 className="Header--Text">Art and Illustration</h1>
+                <h1 className="Header--Text">Janae Dueck Coraggio</h1>
             </div>
         </>
     )
