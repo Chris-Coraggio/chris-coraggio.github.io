@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: left;
     padding: 4rem 0 2rem 0;
-    width: 100%
+    width: 100%;
+    align-items: left;
 }
 
 .Header--Logo {
@@ -11,8 +12,24 @@
 }
 
 .Header--Text {
-    font-family: 'HachiMaru', sans-serif;
+    font-family: 'PlayfairDisplay', sans-serif;
     font-size: 4rem;
     margin-left: 1rem;
     text-align: center;
+}
+
+.bold-i-guess {
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: left;
+    font-weight: 700;
+}
+
+.h4--Text {
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: left;
+    font-weight: 400;
 }
