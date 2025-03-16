@@ -6,6 +6,7 @@ import { Writing } from './components/Writing';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { NavBar } from './components/NavBar';
 
 Modal.setAppElement('#root');
 
@@ -13,6 +14,7 @@ export const App = () => {
   return (
     <div className="App">
       <Header />
+      <NavBar />
       <About />
       <Writing />
       <Illustrations />

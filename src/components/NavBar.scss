@@ -1,0 +1,63 @@
+// Import Cormorant font if you're using Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap');
+
+// Font family definition
+.font-cormorant {
+  font-family: 'Cormorant', serif;
+}
+
+// Basic nav styles
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+// Hover effect
+.hover\:text-gray-600:hover {
+  color: #4B5563;
+}
+
+// Transition
+.transition-colors {
+  transition: color 0.3s ease;
+}
+
+// Utility classes if you're not using Tailwind
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.block {
+  display: block;
+} 

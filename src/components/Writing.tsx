@@ -6,7 +6,7 @@ export const Writing = () => {
     const isDesktop = useContext(DesktopContext);
     return (
         <>
-            <div className="Writing">
+            <div className="Writing" id="writing">
                 <div className="Writing--Feature">
                     {isDesktop && (
                         <div className="Writing--FeatureImage">

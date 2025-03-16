@@ -16,7 +16,7 @@ export const Contact = () => {
         <>
             {!formSubmitted &&
                 <form onSubmit={handleSubmit}>
-                    <div className="Contact">
+                    <div className="Contact" id="contact">
                         <div className="Contact--FormRow">
                             <div>
                                 <p>Here are some of the ways I can help:</p>

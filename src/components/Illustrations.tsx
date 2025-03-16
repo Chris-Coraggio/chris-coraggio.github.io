@@ -8,7 +8,7 @@ export const Illustrations = () => {
     const isDesktop = useContext(DesktopContext);
     const unit = isDesktop ? 320 : 160;
     return (
-        <div className="Illustrations">
+        <div className="Illustrations" id="illustrations">
             <Gallery images={illustrations(unit)} enableImageSelection={false} rowHeight={unit}></Gallery>
         </div>
     );
