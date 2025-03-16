@@ -7,6 +7,7 @@ export const Header = () => {
     return (
         <>
             <div className="Header" style={{ flexDirection: isDesktop ? 'row' : 'column' }}>
+                <img height="200px" src={`${process.env.PUBLIC_URL}/illustrations/headerimagething.jpeg`} />
                     <p>
                         <span className="bold-i-guess">
                             Janae Dueck Coraggio
