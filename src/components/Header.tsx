@@ -10,7 +10,7 @@ export const Header = () => {
                 <img height="200px" src={`${process.env.PUBLIC_URL}/illustrations/headerimagething.jpeg`} />
                     <p>
                         <span className="bold-i-guess">
-                            Janae Dueck Coraggio
+                            Janae Dueck Coraggio, MA, ATR-BC
                         </span>
                         <span className="h4--Text">Illustrations and Books</span>
                         </p>

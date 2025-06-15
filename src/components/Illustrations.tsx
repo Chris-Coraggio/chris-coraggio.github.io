@@ -9,6 +9,7 @@ export const Illustrations = () => {
     const unit = isDesktop ? 320 : 160;
     return (
         <div className="Illustrations" id="illustrations">
+            <h2>Illustrations</h2>
             <Gallery images={illustrations(unit)} enableImageSelection={false} rowHeight={unit}></Gallery>
         </div>
     );
