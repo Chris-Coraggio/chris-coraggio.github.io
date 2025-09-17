@@ -35,16 +35,6 @@ export const Writing = () => {
                     </div>
                 </div>
             </div>
-            <div className="Writing--Video">
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/rVBI6cQy3Cw"
-                    title="Read Aloud: Sitting with my Lions"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
-            </div>
         </>
     )
 }
